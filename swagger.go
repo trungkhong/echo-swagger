@@ -1,7 +1,6 @@
 package echoSwagger
 
 import (
-	"golang.org/x/net/webdav"
 	"html/template"
 	"net/http"
 	"regexp"
@@ -9,6 +8,7 @@ import (
 	"github.com/labstack/echo"
 	"github.com/swaggo/files"
 	"github.com/swaggo/swag"
+	"golang.org/x/net/webdav"
 )
 
 // WrapHandler wraps swaggerFiles.Handler and returns echo.HandlerFunc
@@ -131,6 +131,7 @@ window.onload = function() {
   const ui = SwaggerUIBundle({
     url: "{{.Host}}",
     dom_id: '#swagger-ui',
+    docExpansion: 'none',
     validatorUrl: null,
     presets: [
       SwaggerUIBundle.presets.apis,
