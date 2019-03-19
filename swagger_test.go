@@ -13,6 +13,7 @@ func TestWrapHandler(t *testing.T) {
 
 	router := echo.New()
 
+	//test
 	router.GET("/*", WrapHandler)
 
 	w1 := performRequest("GET", "/index.html", router)
