@@ -132,6 +132,9 @@ window.onload = function() {
     url: "{{.Host}}",
     dom_id: '#swagger-ui',
     docExpansion: 'none',
+    deepLinking: true,
+    displayRequestDuration: true,
+    tagsSorter: 'alpha',
     validatorUrl: null,
     presets: [
       SwaggerUIBundle.presets.apis,
