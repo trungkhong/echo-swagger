@@ -15,8 +15,8 @@ github.com/go-openapi/spec v0.18.0 h1:aIjeyG5mo5/FrvDkpKKEGZPmF9MPHahS72mzfVqeQX
 github.com/go-openapi/spec v0.18.0/go.mod h1:XkF/MOi14NmjsfZ8VtAKf8pIlbZzyoTvZsdfssdxcBI=
 github.com/go-openapi/swag v0.17.0 h1:iqrgMg7Q7SvtbWLlltPrkMs0UBJI6oTSs79JFRUi880=
 github.com/go-openapi/swag v0.17.0/go.mod h1:AByQ+nYG6gQg71GINrmuDXCPWdL640yX49/kXLo40Tg=
-github.com/labstack/echo v3.3.5+incompatible h1:9PfxPUmasKzeJor9uQTaXLT6WUG/r+vSTmvXxvv3JO4=
-github.com/labstack/echo v3.3.5+incompatible/go.mod h1:0INS7j/VjnFxD4E2wkz67b8cVwCLbBmJyDaka6Cmk1s=
+github.com/labstack/echo/v4 v3.3.5+incompatible h1:9PfxPUmasKzeJor9uQTaXLT6WUG/r+vSTmvXxvv3JO4=
+github.com/labstack/echo/v4 v3.3.5+incompatible/go.mod h1:0INS7j/VjnFxD4E2wkz67b8cVwCLbBmJyDaka6Cmk1s=
 github.com/labstack/gommon v0.2.8 h1:JvRqmeZcfrHC5u6uVleB4NxxNbzx6gpbJiQknDbKQu0=
 github.com/labstack/gommon v0.2.8/go.mod h1:/tj9csK2iPSBvn+3NLM9e52usepMtrd5ilFYA+wQNJ4=
 github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329 h1:2gxZ0XQIU/5z3Z3bUBu+FXuk2pFbkN6tcwi/pjyaDic=
